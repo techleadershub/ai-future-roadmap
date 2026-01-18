@@ -12,7 +12,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || 'https://lavish-art-production.up.railway.app';
+      const apiUrl = import.meta.env.VITE_API_URL || 'https://ai-future-roadmap-be.up.railway.app';
       const response = await fetch(`${apiUrl}/generate-roadmap`, {
         method: 'POST',
         headers: {
