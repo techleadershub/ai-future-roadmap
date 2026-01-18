@@ -8,6 +8,7 @@ def get_roadmap_prompt():
         
         Name: {name}
         Current Role: {role}
+        Years of Experience: {years_of_experience}
         Job Description: {description}
         Current CTC: {ctc} Lakhs per Annum
 
