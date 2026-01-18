@@ -1,0 +1,42 @@
+# General
+.DS_Store
+Thumbs.db
+*~
+*.log
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+.env.local
+backend/.env
+backend/venv/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+.npm/
+package-lock.json
+yarn.lock
+# Keep lock files if you want reproducible builds, but sometimes people ignore them. 
+# Re-including lock files is standard practice, so I will REMOVE ignoring lock files.
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Railway / Deployment
+.railway/
