@@ -27,8 +27,8 @@ frontend/dist/
 build/
 frontend/build/
 .npm/
-package-lock.json
-yarn.lock
+# package-lock.json
+# yarn.lock
 # Keep lock files if you want reproducible builds, but sometimes people ignore them. 
 # Re-including lock files is standard practice, so I will REMOVE ignoring lock files.
 
