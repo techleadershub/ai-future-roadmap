@@ -12,7 +12,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+      const apiUrl = import.meta.env.VITE_API_URL || 'https://lavish-art-production.up.railway.app';
       const response = await fetch(`${apiUrl}/generate-roadmap`, {
         method: 'POST',
         headers: {
@@ -40,7 +40,7 @@ function App() {
       <header style={{ padding: '2rem', textAlign: 'center', width: '100%' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginBottom: '1rem' }}>
           <BrainCircuit size={40} color="var(--accent-primary)" />
-          <h1 style={{ margin: 0, fontSize: '1.5rem', letterSpacing: '2px', textTransform: 'uppercase' }}>FutureArchitect.AI</h1>
+          <h1 style={{ margin: 0, fontSize: '1.5rem', letterSpacing: '2px', textTransform: 'uppercase' }}>Future Proof India Agentic AI roadmap tool</h1>
         </div>
       </header>
 

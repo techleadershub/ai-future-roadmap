@@ -27,6 +27,7 @@ class UserInput(BaseModel):
     name: str
     email: str
     role: str
+    years_of_experience: str
     description: str
     ctc: str
 
@@ -60,6 +61,7 @@ async def generate_roadmap(user_input: UserInput):
         name=user_input.name,
         role=user_input.role,
         description=user_input.description,
+        years_of_experience=user_input.years_of_experience,
         ctc=user_input.ctc,
         format_instructions=parser.get_format_instructions()
     )

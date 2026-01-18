@@ -5,6 +5,7 @@ const InputForm = ({ onSubmit, isLoading }) => {
         name: '',
         email: '',
         role: '',
+        years_of_experience: '',
         description: '',
         ctc: ''
     });
@@ -59,6 +60,19 @@ const InputForm = ({ onSubmit, isLoading }) => {
                         className="glass-input"
                         placeholder="e.g. Senior Marketing Manager"
                         value={formData.role}
+                        onChange={handleChange}
+                    />
+                </div>
+
+                <div>
+                    <label>Years of Experience</label>
+                    <input
+                        type="number"
+                        name="years_of_experience"
+                        required
+                        className="glass-input"
+                        placeholder="5"
+                        value={formData.years_of_experience}
                         onChange={handleChange}
                     />
                 </div>
