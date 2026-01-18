@@ -32,7 +32,7 @@ const InputForm = ({ onSubmit, isLoading }) => {
                         name="name"
                         required
                         className="glass-input"
-                        placeholder="John Doe"
+                        placeholder="Rohan Sharma"
                         value={formData.name}
                         onChange={handleChange}
                     />
@@ -45,7 +45,7 @@ const InputForm = ({ onSubmit, isLoading }) => {
                         name="email"
                         required
                         className="glass-input"
-                        placeholder="john@example.com"
+                        placeholder="rohan.sharma@example.com"
                         value={formData.email}
                         onChange={handleChange}
                     />
