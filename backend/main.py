@@ -8,7 +8,7 @@ from typing import List, Optional
 import os
 from dotenv import load_dotenv
 import json
-from .prompts import get_roadmap_prompt
+from prompts import get_roadmap_prompt
 
 load_dotenv()
 
